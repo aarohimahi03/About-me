@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap') @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap') * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    margin: -8px;
+}
+
+.left {
+    color: rgb(187, 144, 64);
+    font-size: 19px;
+    margin-left: -300px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    /* background-color: rgba(186, 197, 208, 0.408); */
+    background-color: rgba(20, 46, 73, 0.408);
+    width: 1680px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: -250px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: rgb(187, 144, 64);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+nav ul li a :hover {
+    color: lavender;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    font-family: "Ojuju", sans-serif;
+    font-size: 16px;
+}
+
+.first-section>div {
+    width: 30%;
+}
+
+.left-section {
+    color: rgb(187, 144, 64);
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.right-section img {
+    height: 45vh;
+    width: 45vh;
+    border-radius: 210px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.hello {
+    font-size: 3em;
+    color: aquamarine;
+
+}
+
+#element {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(187, 144, 64);
+}
+
+.about {
+    font-size: 1.5em;
+    color: rgb(187, 144, 64);
+}
+
+.moreabout {
+    font-size: 17px;
+    margin-top: 15px;
+    color: aquamarine;
+}
+
+.buttons button {
+    margin-top: 2.2em;
+    padding: 9px;
+    border-radius: 15px;
+    background-color: rgb(47, 35, 24);
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.buttons button a {
+    color: rgb(187, 144, 64);
+    text-decoration: none;
+}
+
+.buttons button:hover {
+    background-color: rgb(90, 90, 135);
+    color: blue;
+}
+
+.links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(47, 35, 24);
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(187, 144, 64);
+}
+
+.links a :hover {
+    background-color: rgb(90, 90, 135);
+    color: blue;
+    box-shadow: 0 0 20px rgb(1, 27, 103);
+}
+
+.main h1 {
+    display: flex;
+    justify-content: end;
+    margin-top: 122px;
+    margin-right: 542px;
+    font-size: 65px;
+    color: rgb(187, 144, 64);
+}
+
+.main {
+    margin-bottom: 320px;
+}
+
+.main h2 {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 26px;
+    margin-right: 590px;
+    font-size: 40px;
+    color: blue;
+}
+
+.codingpic img {
+    height: 510px;
+    width: 530px;
+    border-radius: 300px;
+    margin-left: 632px;
+}
+
+.moreaboutme {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+    margin-left: 0px;
+    font-size: 35px;
+    margin-top: 43px;
+    margin-right: 0px;
+}
+
+.contactform {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin: 8px;
+    height: 300px;
+}
+
+.contactform h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    color: rgb(187, 144, 64);
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-left: 440px;
+}
+
+form .buttons {
+    margin-left: 440px;
+}
+
+.contactform form input {
+    width: 15vw;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.main .certificate {
+    color: aquamarine;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.main ul li a {
+    color: rgb(187, 144, 64);
+    text-decoration: none;
+}
+
+.main ul li a:hover {
+    color: rgb(54, 54, 222);
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.main ul li {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.second-section .skills {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    margin-top: 40px;
+}
+
+.second-section .tech-skills {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 115px;
+    color: aquamarine;
+}
+
+.second-section .box {
+    background-color: rgb(187, 144, 64);
+    height: 2px;
+    width: 89vw;
+    margin-top: 72px;
+    margin-left: 65px;
+    display: flex;
+}
+
+.second-section .vertical {
+    height: 127px;
+    width: 1px;
+    margin: 0 125px;
+    background-color: rgb(187, 144, 64);
+}
+
+.vertical i {
+    position: relative;
+    top: -17px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 113px;
+    left: -8px;
+    font-size: 27px;
+    color: rgb(187, 144, 64);
+}
+
+.vertical-desc {
+    position: relative;
+    top: 132px;
+    font-size: 20px;
+    left: -5px;
+    color: rgb(187, 144, 64);
+}
+
+.a {
+    width: 113px;
+    height: 9px;
+    background-color: rgb(26, 26, 61);
+    position: relative;
+    top: 122px;
+    left: -16px;
+}
+
+.b {
+    width: 90px;
+    height: 9px;
+    background-color: rgb(93, 75, 75);
+}
+
+.c {
+    width: 80px;
+    height: 9px;
+    background-color: rgb(93, 75, 75);
+}
+
+.d {
+    width: 60px;
+    height: 9px;
+    background-color: rgb(93, 75, 75);
+}
+
+.e {
+    width: 75px;
+    height: 9px;
+    background-color: rgb(93, 75, 75);
+}
+
+.f {
+    width: 50px;
+    height: 9px;
+    background-color: rgb(93, 75, 75);
+}
+
+.g {
+    width: 60px;
+    height: 9px;
+    background-color: rgb(93, 75, 75);
+}
+
+.second-section .prof-skills {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    margin-top: 290px;
+    margin-left: 115px;
+    color: aquamarine;
+    margin-bottom: -38px;
+}
+
+.radial-bars {
+    display: flex;
+    width: 97%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.radial-bars .radial-bar {
+    height: 170px;
+    width: 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar .progress-bar {
+    stroke-width: 10;
+    stop-color: antiquewhite;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}
+
+.path {
+    stroke-width: 10;
+    stroke: rgb(7, 97, 97);
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1 {
+    animation: animate-path1 1s 1s linear forwards;
+}
+
+.path-2 {
+    animation: animate-path2 1s 1s linear forwards;
+}
+
+.path-3 {
+    animation: animate-path3 1s 1s linear forwards;
+}
+
+.path-4 {
+    animation: animate-path4 1s 1s linear forwards;
+}
+
+@keyframes animate-path1 {
+    100% {
+        stroke-dashoffset: 50;
+        ;
+    }
+}
+
+@keyframes animate-path2 {
+    100% {
+        stroke-dashoffset: 175;
+        ;
+    }
+}
+
+@keyframes animate-path3 {
+    100% {
+        stroke-dashoffset: 125;
+        ;
+    }
+}
+
+@keyframes animate-path4 {
+    100% {
+        stroke-dashoffset: 75;
+        ;
+    }
+}
+
+.radial-bar .percentage {
+    position: relative;
+    top: 82px;
+    left: 392px;
+    font-size: 17px;
+    color: rgb(187, 144, 64);
+}
+
+.radial-bar .text {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    font-size: 26px;
+    color: rgb(187, 144, 64);
+
+}
+
+footer {
+    background-color: rgba(20, 46, 73, 0.408);
+    height: 160px;
+    margin-bottom: -120px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 100px;
+    justify-content: space-evenly;
+    color: rgb(187, 144, 64);
+
+}
+
+.footer ul {
+    list-style: none;
+    color: (187, 144, 64);
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.class-center {
+    color: rgb(182, 159, 117);
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.second ul li a {
+    color: rgb(187, 144, 64);
+    text-decoration: none;
+}
+
+.third ul li a {
+    color: rgb(187, 144, 64);
+    text-decoration: none;
+}
+
+.fourth ul li a {
+    color: rgb(187, 144, 64);
+    text-decoration: none;
+}
+
+.project {
+    margin-bottom: 620px;
+}
